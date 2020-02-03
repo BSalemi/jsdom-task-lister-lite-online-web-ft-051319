@@ -18,4 +18,8 @@ const createNewTask = event => {
 }
 
 newTaskForm.addEventListener('submit', createNewTask)
+
+const appendNewTask = task => {
+  document.getElementById("tasks").appendChild(task);
+};
 }
