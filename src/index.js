@@ -8,7 +8,7 @@
 
 let taskForm = document.getElementById("create-task-form")
 
-function createNewTask = event => {
+const createNewTask = event => {
   event.preventDefault(),
   const takeDescription = document.getElementById("new-task-description")
 }
