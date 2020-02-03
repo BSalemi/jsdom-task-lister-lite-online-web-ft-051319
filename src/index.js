@@ -14,7 +14,8 @@ const createNewTask = event => {
   const newTaskDescription = document.getElementById("new-task-description");
   const tasks = document.getElementById('tasks');
   task.innerText = newTaskDescription.value,
-  tasks.appendChild(task)
+  appendNewTask(newTask);
+  event.target.reset();
 }
 
 newTaskForm.addEventListener('submit', createNewTask)
