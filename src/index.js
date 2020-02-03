@@ -1,4 +1,4 @@
-
+document.addEventListener("DOMContentLoaded", () => {
 
 
 // console.log(taskList);
@@ -18,3 +18,4 @@ const createNewTask = event => {
 }
 
 newTaskForm.addEventListener('submit', createNewTask)
+}
