@@ -13,7 +13,7 @@ const createNewTask = event => {
   const task = document.createElement('li')
   const newTaskDescription = document.getElementById("new-task-description");
   const tasks = document.getElementById('tasks');
-  task.innerHTML = newTaskDescription.value,
+  task.innerText = newTaskDescription.value,
   tasks.appendChild(task)
 }
 
