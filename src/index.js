@@ -13,11 +13,13 @@ const createNewTask = event => {
   const takeDescription = document.getElementById("new-task-description")
   const task = document.createElement('li')
   const newTaskDescription = document.getElementById("new-task-description");
+  const tasks = document.getElementById('tasks');
   task.innerHTML = newTaskDescription.value,
+  tasks.appendChild(task)
 }
 
 taskForm.addEventListener('submit', function {
-  let tasks = document.getElementById('tasks');
+
   let task = document.createElement('li');
   task.innerHTML =
 })
