@@ -18,8 +18,6 @@ const createNewTask = event => {
   tasks.appendChild(task)
 }
 
-taskForm.addEventListener('submit', function {
+taskForm.addEventListener('submit', createNewTask)
 
-  let task = document.createElement('li');
-  task.innerHTML =
-})
+  
